@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+.conteiner{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#txt1{
+font-size: 48px;
+font-weight: 700;
+line-height: 59.42px;
+text-align: center;
+margin-top: 5%;
+}
+#txt{
+Width:1008px;
+Height:88px;
+font-family: Gilroy;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.83px;
+text-align: center;
+margin-left: 16%;
+margin-top: 1%;
+}
+.rsmsz{
+    position: relative;
+    display: flex;
+    margin-bottom: 40px;
+}
+.rsm{
+    width: 312px;
+    height: 240px;
+    background-image: url(./img/mbp14-silver-select-202110\ 1.png);
+    background-size: contain;
+background-repeat: no-repeat;
+display: block;
+position: absolute;
+z-index: 1;
+    margin-top: 5%;
+    margin-left: 32%;
+}
+.rsm1{
+    width: 312px;
+    height: 240px;
+    background-image: url(./img/mbp14-spacegray-select-202110\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    top: 80px;
+    left: 480px;
+}
+.sozlar{
+    width: 400px;
+    position: relative;
+    left: 750px;
+}
+.sz1{
+font-size: 48px;
+font-weight: 700;
+line-height: 59.42px;
+margin-top: 25%;
+margin-left: 10%;
+}
+.sz2{
+    font-family: Gilroy;
+font-size: 24px;
+font-weight: 700;
+line-height: 29.71px;
+text-align: left;
+color: #0071E3;
+margin-left: 10%;
+}
+.sz3{
+    font-family: Gilroy;
+font-size: 48px;
+font-weight: 700;
+line-height: 59.42px;
+text-align: left;
+margin-left: 10%;
+margin-top: 5%;
+}
+.butonlar{
+    width: 100%;
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.btn1{
+width: 155px;
+height: 42px;
+border-radius: 7px;
+background-color: #CFE7FF;
+color:#797979;
+border: 1px solid #CFE7FF;
+}
+.btn2{
+    width: 155px;
+    height: 42px;
+    border-radius: 7px;
+    background-color: #CFE7FF;
+    border: 1px solid #CFE7FF ;
+    color: #797979;
+}
+.pamitlar{
+    padding-top: 20px;
+}
+#s512{
+    width: 321px;
+height: 57px;
+border: 2px solid #CFE7FF;
+margin-left: 39.4%;
+margin-top: 10px;
+border-radius: 7px;
+padding-left: 20px;
+display: flex;
+gap: 170px;
+padding-top: 15px;
+font-family: Gilroy;
+font-size: 18px;
+font-weight: 600;
+line-height: 22.05px;
+text-align: left;
+}
+#s1t{
+    width: 321px;
+    height: 57px;
+    border: 2px solid #CFE7FF;
+    margin-left: 39.4%;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding-left: 20px;
+    display: flex;
+    gap: 170px;
+    padding-top: 15px;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.05px;
+    text-align: left;
+    cursor: pointer;
+}
+#s2t{
+    width: 321px;
+    height: 57px;
+    border: 2px solid #CFE7FF;
+    margin-left: 39.4%;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding-left: 20px;
+    display: flex;
+    gap: 170px;
+    padding-top: 15px;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.05px;
+    text-align: left;
+    cursor: pointer;
+}
+#s4t{
+    width: 321px;
+    height: 57px;
+    border: 2px solid #CFE7FF;
+    margin-left: 39.4%;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding-left: 20px;
+    display: flex;
+    gap: 170px;
+    padding-top: 15px;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.05px;
+    text-align: left;
+    cursor: pointer;
+}
+.h11{
+font-family: Gilroy;
+font-size: 18px;
+font-weight: 600;
+line-height: 22.05px;
+text-align: left;
+}
+.h12{
+font-family: Gilroy;
+font-size: 14px;
+font-weight: 600;
+line-height: 17.15px;
+text-align: right;
+margin-top: 2.5px;
+}
+.h13{
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.05px;
+    text-align: left;  
+}
+.h14{
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.15px;
+    text-align: right;
+    margin-top: 2.5px; 
+}
+.h15{
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.05px;
+    text-align: left; 
+}
+.h16{
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.15px;
+    text-align: right;
+    margin-top: 2.5px;  
+}
+.pamitlar div:hover{
+    border: 10px solid #b4cae0;
+}
+
